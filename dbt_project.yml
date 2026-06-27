@@ -39,3 +39,6 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+seeds: 
+  dbt_learning:
+      +schema: bronze
