@@ -1,0 +1,1 @@
+select * from LEARNDBT.SOURCE.DIM_PRODUCTS

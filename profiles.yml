@@ -1,0 +1,12 @@
+dbt_learning:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      threads: 1
+      account: ZWEBBQZ-WO30997
+      user: SIVASANKARK123
+      database: LEARNDBT
+      warehouse: COMPUTE_WH
+      schema: DBT_LEARN
+      password: Ridhisri012345

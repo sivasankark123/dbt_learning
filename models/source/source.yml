@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: SOURCE
+    database: LEARNDBT
+    schema: SOURCE
+    tables:
+      - name: dim_customer
+
+      - name: dim_date
+
+      - name: dim_products
+
+      - name: dim_store
+
+      - name: fact_sales
+
+      - name: fact_returns
