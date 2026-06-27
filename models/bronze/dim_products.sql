@@ -1,1 +1,1 @@
-select * from LEARNDBT.SOURCE.DIM_PRODUCTS
+select * from {{ source('source','dim_product') }}

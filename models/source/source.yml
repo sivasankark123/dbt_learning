@@ -1,15 +1,15 @@
 version: 2
 
 sources:
-  - name: SOURCE
+  - name: source
     database: LEARNDBT
-    schema: SOURCE
+    schema: source
     tables:
       - name: dim_customer
 
       - name: dim_date
 
-      - name: dim_products
+      - name: dim_product
 
       - name: dim_store
 
